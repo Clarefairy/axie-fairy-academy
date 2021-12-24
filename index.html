@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background: linear-gradient(
+          90.7deg,
+          rgb(255, 253, 218) 1.9%,
+          rgb(246, 210, 255) 39.3%,
+          rgb(152, 222, 254) 64.7%,
+          rgb(251, 255, 210) 100.8%
+        );
+      }
+      hr {
+        background-color: transparent;
+        border: none;
+        border-top: double;
+        color: #2867a7;
+        height: 0.5px;
+        width: 60%;
+      }
+
+      a {
+        color: #ff6f9d;
+        font-family: fantasy;
+        font-size: 23px;
+        font-variant: small-caps;
+        text-decoration: none;
+      }
+      a:hover {
+        font-size: 140%;
+        transition: all 300ms ease-in-out;
+      }
+      h2 {
+        font-weight: 400;
+        margin: 20px auto 10px;
+      }
+
+      .header {
+        text-align: center;
+      }
+      .logo {
+        width: 8.5%;
+      }
+      .title {
+        color: #2867a7;
+        font-family: fantasy;
+        font-size: 40px;
+        margin: 5px auto 8px;
+      }
+      .ul-navbar {
+        list-style: none;
+        margin: 12px auto 8px;
+        padding: 0;
+        text-align: center;
+      }
+      .li-navbar {
+        display: inline;
+
+        margin: 0 15px;
+        padding: 0 10px;
+      }
+      .about-me {
+        width: 55%;
+        display: block;
+        margin: 0 auto;
+        line-height: 2;
+      }
+      .note {
+        font-family: fantasy;
+        text-align: center;
+      }
+      @counter-style fairy {
+        system: cyclic;
+        symbols: 🦄;
+        suffix: " ";
+      }
+      .ul-note {
+        list-style-type: fairy;
+        list-style-position: inside;
+        text-align: left;
+        display: inline-block;
+        margin: 0 auto;
+      }
+      .li-note {
+        line-height: 2;
+      }
+      .key {
+        font-weight: 900;
+        font-style: italic;
+      }
+
+      .slp {
+        display: inline-flex;
+        max-width: 20px;
+      }
+
+      .registration {
+        background: transparent;
+        border: 1px solid #2867a7;
+        border-radius: 20px;
+        box-shadow: 2px 5px 5px rgba(99, 97, 97, 0.1);
+        color: #2867a7;
+        display: block;
+        font-size: 16px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+          sans-serif;
+        height: auto;
+        margin: 20px auto;
+        padding: 16px 20px;
+        transition: all 200ms ease;
+      }
+      .registration:hover {
+        background: #faf0ef;
+        border: 1px solid #ff6f9d;
+        color: #ff6f9d;
+        cursor: pointer;
+      }
+      .last-img {
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+      }
+      .footer {
+        font-family: monospace;
+        text-align: center;
+        text-shadow: 1px 1px 2px lightslategrey;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img
+        class="logo"
+        src="https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fffed723d-56ee-45ef-a830-87d19867342c_307x269.png"
+      />
+      <h1 class="title">Axie Fairy School</h1>
+    </div>
+    <div class="navbar">
+      <ul class="ul-navbar">
+        <li class="li-navbar">
+          <a href="https://axieinfinity.com/" target="_black" class="About"> About Axie Infinity </a>
+        </li>
+        <li class="li-navbar">
+          <a href="https://axie.substack.com/p/axie-community-alpha-getting-started" target="_blank"> Download </a>
+        </li>
+        <li class="li-navbar">
+          <a href="https://marketplace.axieinfinity.com/axie" target="_blank"> Marketplace </a>
+        </li>
+        <li class="li-navbar">
+          <a href="https://whitepaper.axieinfinity.com/" target="_blank"> Whitepaper</a>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div class="note">
+      <h2 class="about">About AFS</h2>
+      <p class="about-me">
+        I started playing Axie Infinity in May 2021. I have managed to earn some side income for myself and am looking
+        to start a scholarship for those who would like to dip their toes in the water first before committing to the
+        game, or others who are looking to earn an income to support themselves and their loved ones.<br />
+        I managed to rank in the top 1000 in the latest season (18) and am absolutely psyched to start my own
+        scholarship and achieve greater heights with my fellow fairies!! 🧚🏻 </p>
+      
+      <h2>Things to note!</h2>
+      <ul class="ul-note">
+        <li class="li-note">Must be <em>at least </em><span class="key">18 years or older</span></li>
+        <li class="li-note">Must be able to converse in <span class="key">English</span></li>
+        <li class="li-note">Must have your <span class="key">own</span> Ronin wallet</li>
+        <li class="li-note">
+          Must earn a minimum of <span class="key">100 SLP daily</span>
+          <img class="slp" src="https://assets.coingecko.com/coins/images/10366/small/SLP.png?1578640057" />
+        </li>
+        <li class="li-note">Inactivity of <strong>more than 3 days</strong> will lead to <span class = "key">scholarship termination</span></strong></li>
+      </ul>
+      <h2 class="applied"></h2>
+    </div>
+    <button class="registration">Apply now!</button>
+
+    <img
+      class="last-img"
+      src="https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F63617aa3-f2a9-4daa-9865-e5b92b2ec6f5_1456x1340.png"
+    />
+    <br />
+    <p class="footer">
+      <span style="color: #ff5c5c">T</span><span style="color: #ff7f5c">h</span><span style="color: #ffa25c">i</span
+      ><span style="color: #ffc55c">s</span> <span style="color: #ffe85c">p</span><span style="color: #f3ff5c">a</span
+      ><span style="color: #d0ff5c">g</span><span style="color: #adff5c">e</span> <span style="color: #8aff5c">w</span
+      ><span style="color: #67ff5c">a</span><span style="color: #5cff73">s</span> <span style="color: #5cff96">b</span
+      ><span style="color: #5cffb9">u</span><span style="color: #5cffdc">i</span><span style="color: #5cffff">l</span
+      ><span style="color: #5cdcff">t</span> <span style="color: #5cb9ff">b</span><span style="color: #5c96ff">y</span>
+      <span style="color: #5c73ff">C</span><span style="color: #675cff">l</span><span style="color: #8a5cff">a</span
+      ><span style="color: #ad5cff">r</span><span style="color: #d05cff">e</span><span style="color: #f35cff">f</span
+      ><span style="color: #ff5ce8">a</span><span style="color: #ff5cc5">i</span><span style="color: #ff5ca2">r</span
+      ><span style="color: #ff5c7f">y</span>
+    </p>
+    <script>
+      function application() {
+        let name = prompt("What is your name?");
+        let ronin = prompt("Do you have a Ronin wallet? (Y/N)");
+        let applied = document.querySelector(".applied");
+        ronin = ronin.toLowerCase();
+        ronin = ronin.replace(/\s+/g, "");
+        if (ronin === "y" || ronin === "yes") {
+          let email = prompt("What is your email?");
+          alert("Hello "+name+"! 😊\nWe will be in touch soon! 🧚🏻‍♀️");
+          applied.innerHTML = "An application form will be sent to your email (" + email + ") 😊";
+        } 
+        else if (ronin === "n" || ronin === "no") {
+          alert("Thank you for your interest, " + name + "! 🧚🏻‍♀️ \nKindly create a Ronin wallet first before reapplying. 😊 ");
+          applied.innerHTML =  "";
+          
+        }
+        else {
+          alert("Hi " +name+ "! Your input was invalid. ☹️\nIf you have a Ronin wallet, kindly type 'y'. If not, please type 'n'. Thank you! ☺️");
+          applied.innerHTML =  "";
+        }      
+      }
+
+      let button = document.querySelector(".registration");
+      button.addEventListener("click", application);
+    </script>
+  </body>
+</html>
